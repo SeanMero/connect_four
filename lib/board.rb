@@ -6,4 +6,8 @@ class Board
     @board = [%w[_ _ _ _ _ _ _], %w[_ _ _ _ _ _ _], %w[_ _ _ _ _ _ _], %w[_ _ _ _ _ _ _], %w[_ _ _ _ _ _ _],
               %w[_ _ _ _ _ _ _]]
   end
+
+  def display_board
+    p @board
+  end
 end

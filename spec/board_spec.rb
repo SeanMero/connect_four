@@ -12,4 +12,6 @@ describe Board do
       expect(test_board.instance_variable_get(:@board)[0].length).to eq(7)
     end
   end
+
+  # no need to test #describe_board, because it only prints
 end
